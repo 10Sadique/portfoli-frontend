@@ -73,7 +73,7 @@ const Navbar = () => {
                     className={
                         nav
                             ? 'fixed top-0 left-0 w-[75%] sm:w-[60%] md:w-[45%] bg-zinc-900 h-screen px-7 py-5 md:px-10 ease-in duration-500'
-                            : 'fixed top-0 h-screen left-[-100%] ease-in duration-500 px-7 py-5 md:px-10'
+                            : 'fixed top-0 h-screen left-[-100%] ease-in duration-500 px-7 py-5 sm:w-[60%] md:w-[45%] w-[75%] md:px-10'
                     }
                 >
                     {/* nav header */}
@@ -96,7 +96,7 @@ const Navbar = () => {
                         </div>
                     </div>
                     <div className="my-5 border-b border-zinc-500">
-                        <p className="mb-2">{`Let's build something Amazing together.`}</p>
+                        <p className="mb-2 w-[85%] md:w-[90%]">{`Let's build something Amazing together.`}</p>
                     </div>
                     {/* nav links */}
                     <div className="flex flex-col py-4">
