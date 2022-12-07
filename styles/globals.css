@@ -31,6 +31,6 @@
     }
 
     button {
-        @apply px-5 py-2 font-semibold text-white rounded-md shadow-lg bg-green-bright shadow-green-bright/20;
+        @apply px-5 py-2 text-white rounded-md shadow-lg bg-green-bright shadow-green-bright/10;
     }
 }

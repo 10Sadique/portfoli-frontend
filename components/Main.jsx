@@ -1,4 +1,7 @@
 import React from 'react';
+import { AiOutlineMail } from 'react-icons/ai';
+import { BsFillPersonLinesFill } from 'react-icons/bs';
+import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 
 const Main = () => {
     return (
@@ -10,12 +13,37 @@ const Main = () => {
                     </p>
                     <h1 className="py-4">
                         Hello, {`I'm `}
-                        <br />
+                        <span className="text-green-bright">Jafar</span>
+                    </h1>
+                    <h1 className="py-2">A Front-End Developer</h1>
+                    <p className="py-4 m-auto max-w-[70%] text-gray-200">
+                        Hello, my name is{' '}
                         <span className="text-green-bright">
                             Md Jafar Sadique
                         </span>
-                    </h1>
-                    <h1 className="py-2">A Front-End Developer</h1>
+                        . I am a front-end web developer who specializes in
+                        creating high-quality web applications. I am currently
+                        concentrating on developing responsive front-end web
+                        applications while studying back-end technologies.
+                    </p>
+                    <button className="duration-200 ease-in bg-transparent border shadow-none border-green-bright text-green-bright hover:bg-green-bright hover:text-white">
+                        Resume
+                    </button>
+                    {/* Social Icons */}
+                    <div className="flex items-center justify-center gap-5 mt-5 text-green-bright">
+                        <div className="p-3 transition-all duration-100 cursor-pointer bg-green-bright/20 rounded-xl hover:bg-green-bright/25">
+                            <FaLinkedinIn />
+                        </div>
+                        <div className="p-3 transition-all duration-100 cursor-pointer bg-green-bright/20 rounded-xl hover:bg-green-bright/25">
+                            <FaGithub />
+                        </div>
+                        <div className="p-3 transition-all duration-100 cursor-pointer bg-green-bright/20 rounded-xl hover:bg-green-bright/25">
+                            <AiOutlineMail />
+                        </div>
+                        <div className="p-3 transition-all duration-100 cursor-pointer bg-green-bright/20 rounded-xl hover:bg-green-bright/25">
+                            <BsFillPersonLinesFill />
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
