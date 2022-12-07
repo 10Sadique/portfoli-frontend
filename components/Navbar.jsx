@@ -65,8 +65,8 @@ const Navbar = () => {
             <div
                 className={
                     nav
-                        ? 'md:hidden fixed top-0 left-0 w-full h-screen bg-black/70'
-                        : ''
+                        ? 'md:hidden fixed top-0 left-0 w-full h-screen bg-black/70 ease-in duration-500'
+                        : 'ease-in duration-500'
                 }
             >
                 <div
