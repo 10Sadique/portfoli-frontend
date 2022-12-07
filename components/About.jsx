@@ -22,7 +22,7 @@ const About = () => {
                 </div>
                 <div className="w-full h-auto m-auto overflow-hidden duration-300 border-8 shadow-md rounded-xl shadow-green-bright/0 hover:shadow-lg hover:shadow-green-bright/20 ease hover:scale-110 border-green-bright">
                     <Image
-                        className="w-full grayscale"
+                        className="w-full"
                         src={jahan}
                         alt=""
                         width={500}
