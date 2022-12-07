@@ -6,7 +6,7 @@
 
 @layer base {
     body {
-        @apply text-white bg-black font-space;
+        @apply text-white bg-black font-space scrollbar-thin scrollbar-thumb-green-bright scrollbar-track-green-bright/10;
     }
 
     h1,
