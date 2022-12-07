@@ -16,7 +16,7 @@ const Main = () => {
                         <span className="text-green-bright">Jafar</span>
                     </h1>
                     <h1 className="py-2">A Front-End Developer</h1>
-                    <p className="py-4 m-auto max-w-[70%] text-gray-200">
+                    <p className="py-4 m-auto max-w-[80%] md:max-w-[70%] text-gray-200 tracking-wide">
                         Hello, my name is{' '}
                         <span className="text-green-bright">
                             Md Jafar Sadique
