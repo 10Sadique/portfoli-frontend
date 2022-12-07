@@ -26,11 +26,11 @@ const Main = () => {
                         concentrating on developing responsive front-end web
                         applications while studying back-end technologies.
                     </p>
-                    <button className="duration-200 ease-in bg-transparent border shadow-none border-green-bright text-green-bright hover:bg-green-bright hover:text-white">
+                    <button className="mb-6 duration-200 ease-in bg-transparent border shadow-none border-green-bright text-green-bright hover:bg-green-bright hover:text-white">
                         Resume
                     </button>
                     {/* Social Icons */}
-                    <div className="flex items-center justify-center gap-5 mt-5 text-green-bright">
+                    <div className="flex items-center justify-center gap-5 text-green-bright">
                         <div className="p-3 transition-all duration-100 cursor-pointer bg-green-bright/20 rounded-xl hover:bg-green-bright/25">
                             <FaLinkedinIn />
                         </div>
