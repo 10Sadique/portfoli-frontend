@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 import jahan from '../public/assets/jahan.jpg';
 
 const About = () => {
@@ -20,7 +21,9 @@ const About = () => {
                         {`Then I decided to dive into the realm of web programming by learning JavaScript. I was astounded by how interactive it makes websites. I've been working with React from 2022 and have completed numerous large projects using it. I also have experience with NodeJS, Express, MongoDB, and TypeScript. I intend to become a full-stack developer. At the moment, I'm learning NextJS, Prisma, and tRPC.`}
                     </p>
                     <p className="py-2 underline cursor-pointer">
-                        Check out some of my latest projects.
+                        <Link href={`/#projects`}>
+                            Check out some of my latest projects.
+                        </Link>
                     </p>
                 </div>
                 <div className="w-full h-auto m-auto overflow-hidden duration-300 border-8 shadow-md rounded-xl shadow-green-bright/0 hover:shadow-lg hover:shadow-green-bright/20 ease lg:hover:scale-110 border-green-bright">
