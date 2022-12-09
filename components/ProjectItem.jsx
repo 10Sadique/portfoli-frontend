@@ -10,6 +10,8 @@ const ProjectItem = ({ title, image, projectUrl, tech }) => {
                 src={image}
                 width={1000}
                 alt=""
+                loading="lazy"
+                placeholder="blur"
             />
             <div className="hidden group-hover:block absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]">
                 <h3 className="text-xl tracking-wider text-center md:text-3xl">
