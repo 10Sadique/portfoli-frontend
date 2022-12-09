@@ -3,7 +3,10 @@ import jahan from '../public/assets/jahan.jpg';
 
 const About = () => {
     return (
-        <div className="flex items-center w-full px-5 py-16 md:h-screen">
+        <div
+            id="about"
+            className="flex items-center w-full px-5 py-16 md:h-screen"
+        >
             <div className="max-w-[1240px] m-auto md:grid grid-cols-3 gap-8">
                 <div className="col-span-2">
                     <p className="py-4 text-xl tracking-widest uppercase text-green-bright">

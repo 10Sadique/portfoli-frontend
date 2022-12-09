@@ -13,7 +13,7 @@ import tureVolunteer from '../public/assets/projects/tureVolunteer.png';
 
 const Projects = () => {
     return (
-        <div className="w-full px-5 py-16">
+        <div id="projects" className="w-full px-5 py-16">
             <div className="max-w-[1240px] mx-auto">
                 <p className="py-4 text-xl tracking-widest uppercase text-green-bright">
                     Projects

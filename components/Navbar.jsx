@@ -29,22 +29,22 @@ const Navbar = () => {
                                 Home
                             </li>
                         </Link>
-                        <Link href={`/`}>
+                        <Link href={`/#about`}>
                             <li className="transition-all duration-100 hover:border-b ease">
                                 About
                             </li>
                         </Link>
-                        <Link href={`/`}>
+                        <Link href={`/#skills`}>
                             <li className="transition-all duration-100 hover:border-b ease">
                                 Skills
                             </li>
                         </Link>
-                        <Link href={`/`}>
+                        <Link href={`/#projects`}>
                             <li className="transition-all duration-100 hover:border-b ease">
                                 Projects
                             </li>
                         </Link>
-                        <Link href={`/`}>
+                        <Link href={`/#contact`}>
                             <li className="transition-all duration-100 hover:border-b ease">
                                 Contact
                             </li>
@@ -104,16 +104,16 @@ const Navbar = () => {
                             <Link href={`/`}>
                                 <li className="py-4">Home</li>
                             </Link>
-                            <Link href={`/`}>
+                            <Link href={`/#about`}>
                                 <li className="py-4">About</li>
                             </Link>
-                            <Link href={`/`}>
+                            <Link href={`/#skills`}>
                                 <li className="py-4">Skills</li>
                             </Link>
-                            <Link href={`/`}>
+                            <Link href={`/#projects`}>
                                 <li className="py-4">Projects</li>
                             </Link>
-                            <Link href={`/`}>
+                            <Link href={`/#contact`}>
                                 <li className="py-4">Contact</li>
                             </Link>
                         </ul>

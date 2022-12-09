@@ -8,7 +8,7 @@ import Skills from '../components/Skills';
 
 export default function Home() {
     return (
-        <div>
+        <div className="scroll-smooth">
             <Head>
                 <title>Md Jafar Sadique</title>
                 <meta

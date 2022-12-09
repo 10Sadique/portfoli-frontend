@@ -8,7 +8,7 @@ import Link from 'next/link';
 
 const Contact = () => {
     return (
-        <div className="w-full px-5 py-16 lg:h-auto">
+        <div id="contact" className="w-full px-5 py-16 lg:h-auto">
             <div className="max-w-[1240px] mx-auto">
                 <p className="py-4 text-xl tracking-widest uppercase text-green-bright">
                     Contact
