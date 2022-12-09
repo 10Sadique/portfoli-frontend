@@ -9,6 +9,10 @@ html {
     scroll-behavior: smooth !important;
 }
 
+* {
+    -webkit-tap-highlight-color: transparent;
+}
+
 @layer base {
     body {
         @apply text-white bg-black font-space scrollbar-thin scrollbar-thumb-green-bright scrollbar-track-green-bright/10;
