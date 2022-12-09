@@ -16,9 +16,12 @@ const Navbar = () => {
             <div className="flex items-center justify-between w-full h-full px-2 2xl:px-16">
                 {/* logo */}
                 <div>
-                    <p className="px-5 text-3xl font-bold text-green-bright">
+                    <Link
+                        href={`/`}
+                        className="px-5 text-3xl font-bold text-green-bright"
+                    >
                         Jafar
-                    </p>
+                    </Link>
                 </div>
 
                 {/* Navbar for large and medium screens */}
