@@ -30,6 +30,8 @@ const About = () => {
                         alt=""
                         width={500}
                         height={500}
+                        loading="lazy"
+                        placeholder="blur"
                     />
                 </div>
             </div>
