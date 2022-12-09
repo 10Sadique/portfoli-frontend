@@ -14,10 +14,10 @@ const About = () => {
                     </p>
                     <h2 className="py-4">Who I Am</h2>
                     <p className="py-2">
-                        {`I have completed my bachelor's in Computer Science and Telecommunication Engineering from Noakhali Science and Technology University. I enjoy developing web applications. I began learning HTML and CSS in 2018 and accomplished a few little projects with them. I was enthralled by how I created my first web page with HTML and CSS.`}
+                        {`I have completed my bachelor's in Computer Science and Telecommunication Engineering from Noakhali Science and Technology University. I enjoy developing web applications. I began learning HTML and CSS in 2018 and accomplished a few little projects with them.`}
                     </p>
                     <p className="py-2">
-                        {`Then I decided to delve headfirst into the realm of web programming by learning JavaScript. I was astounded by how interactive it makes websites. I've been working with React for 6 months and have completed numerous large projects using it. I also have experience with NodeJS, Express, MongoDB, and TypeScript. I intend to become a full-stack developer. At the moment, I'm studying about NextJS, Prisma, and tRPC.`}
+                        {`Then I decided to dive into the realm of web programming by learning JavaScript. I was astounded by how interactive it makes websites. I've been working with React from 2022 and have completed numerous large projects using it. I also have experience with NodeJS, Express, MongoDB, and TypeScript. I intend to become a full-stack developer. At the moment, I'm learning NextJS, Prisma, and tRPC.`}
                     </p>
                     <p className="py-2 underline cursor-pointer">
                         Check out some of my latest projects.

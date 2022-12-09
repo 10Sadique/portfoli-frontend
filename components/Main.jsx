@@ -6,25 +6,25 @@ import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 const Main = () => {
     return (
         <div id="home" className="w-full h-screen text-center">
-            <div className="max-w-[1240px] h-full w-full mx-auto p-2 flex justify-center items-center">
+            <div className="max-w-[1240px] h-full w-full mx-auto  flex justify-center items-center">
                 <div>
-                    <p className="text-sm tracking-widest text-gray-400 uppercase">
+                    <p className="p-2 text-sm tracking-widest text-gray-400 uppercase">
                         {`LET'S BUILD SOMTHING AMAZING TOGETHER`}
                     </p>
                     <h1 className="py-4">
                         Hello, {`I'm `}
                         <span className="text-green-bright">Jafar</span>
                     </h1>
-                    <h1 className="py-2">A Front-End Developer</h1>
-                    <p className="py-4 m-auto max-w-[80%] md:max-w-[70%] text-gray-200 tracking-wide">
-                        Hi, my name is{' '}
+                    <h2 className="py-2">A Front-End Developer</h2>
+                    <p className="py-4 pb-5 m-auto max-w-[80%] md:max-w-[70%] text-gray-200 md:tracking-wide">
+                        I am{' '}
                         <span className="text-green-bright">
                             Md Jafar Sadique
                         </span>
-                        . I am a front-end web developer who specializes in
-                        creating high-quality web applications. I am currently
-                        concentrating on developing responsive front-end web
-                        applications while studying back-end technologies.
+                        . I am a front-end developer who specializes in creating
+                        high-quality web apps. I am currently concentrating on
+                        developing responsive front-end apps while studying
+                        back-end technologies.
                     </p>
                     <button className="mb-6 duration-200 ease-in bg-transparent border shadow-none border-green-bright text-green-bright hover:bg-green-bright hover:text-white">
                         Resume
