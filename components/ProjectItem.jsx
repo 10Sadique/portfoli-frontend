@@ -4,7 +4,7 @@ import React from 'react';
 
 const ProjectItem = ({ title, image, projectUrl, tech }) => {
     return (
-        <div className="relative flex items-center justify-center w-full h-auto p-3 bg-green-bright/20 rounded-xl group hover:bg-gradient-to-br from-green-bright to-green-600/70">
+        <div className="relative flex items-center justify-center w-full h-auto md:p-3 bg-green-bright/20 rounded-xl group hover:bg-gradient-to-br from-green-bright to-green-600/70">
             <Image
                 className="w-full rounded-xl group-hover:opacity-10 "
                 src={image}

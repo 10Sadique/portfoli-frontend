@@ -16,7 +16,7 @@ const Contact = () => {
                 <h2 className="pt-4 pb-5 ">Get In Touch</h2>
                 <div className="grid lg:grid-cols-5 gap-7">
                     {/* Left side */}
-                    <div className="w-full h-full col-span-3 p-4 lg:col-span-2 rounded-xl bg-green-bright/20">
+                    <div className="w-full h-full col-span-3 p-5 lg:col-span-2 rounded-xl bg-green-bright/20">
                         <div className="h-full lg:p-2">
                             <div>
                                 <Image
@@ -55,7 +55,7 @@ const Contact = () => {
                     </div>
 
                     {/* Right side */}
-                    <div className="w-full h-full col-span-3 p-4 rounded-xl bg-green-bright/20">
+                    <div className="w-full h-full col-span-3 p-5 rounded-xl bg-green-bright/20">
                         <div className="h-full lg:p-2">
                             <form>
                                 <div className="grid w-full gap-4 py-2 md:grid-cols-2">
