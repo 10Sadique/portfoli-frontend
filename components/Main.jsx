@@ -27,7 +27,7 @@ const Main = () => {
                         developing responsive front-end apps while studying
                         back-end technologies.
                     </p>
-                    <a href="../public/resume.pdf" download>
+                    <a href="https://drive.google.com/u/0/uc?id=16XCu-sT1g_YKoACZZtt09blKweKcTYz-&export=download">
                         <button className="mb-6 duration-200 ease-in bg-transparent border shadow-none border-green-bright text-green-bright hover:bg-green-bright hover:text-white">
                             Resume
                         </button>
