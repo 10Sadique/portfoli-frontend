@@ -37,18 +37,29 @@ const Contact = () => {
                                     Contact With Me
                                 </p>
                                 <div className="flex items-center justify-start gap-5 pt-4">
-                                    <div className="p-3 transition-all duration-100 cursor-pointer bg-green-bright/20 rounded-xl hover:bg-green-bright/25">
+                                    <Link
+                                        href={`https://www.linkedin.com/in/md-jafar-sadique/`}
+                                        target="_blank"
+                                        className="p-3 transition-all duration-100 cursor-pointer bg-green-bright/20 rounded-xl hover:bg-green-bright/25"
+                                    >
                                         <FaLinkedinIn />
-                                    </div>
-                                    <div className="p-3 transition-all duration-100 cursor-pointer bg-green-bright/20 rounded-xl hover:bg-green-bright/25">
+                                    </Link>
+                                    <Link
+                                        href={`https://github.com/10Sadique`}
+                                        target="_blank"
+                                        className="p-3 transition-all duration-100 cursor-pointer bg-green-bright/20 rounded-xl hover:bg-green-bright/25"
+                                    >
                                         <FaGithub />
-                                    </div>
-                                    <div className="p-3 transition-all duration-100 cursor-pointer bg-green-bright/20 rounded-xl hover:bg-green-bright/25">
+                                    </Link>
+                                    <Link
+                                        href={`mailto:jafarsjahan@gmail.com`}
+                                        className="p-3 transition-all duration-100 cursor-pointer bg-green-bright/20 rounded-xl hover:bg-green-bright/25"
+                                    >
                                         <AiOutlineMail />
-                                    </div>
-                                    <div className="p-3 transition-all duration-100 cursor-pointer bg-green-bright/20 rounded-xl hover:bg-green-bright/25">
+                                    </Link>
+                                    {/* <div className="p-3 transition-all duration-100 cursor-pointer bg-green-bright/20 rounded-xl hover:bg-green-bright/25">
                                         <BsFillPersonLinesFill />
-                                    </div>
+                                    </div> */}
                                 </div>
                             </div>
                         </div>

@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react';
 import { AiOutlineMail } from 'react-icons/ai';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
@@ -26,23 +27,36 @@ const Main = () => {
                         developing responsive front-end apps while studying
                         back-end technologies.
                     </p>
-                    <button className="mb-6 duration-200 ease-in bg-transparent border shadow-none border-green-bright text-green-bright hover:bg-green-bright hover:text-white">
-                        Resume
-                    </button>
+                    <a href="../public/resume.pdf" download>
+                        <button className="mb-6 duration-200 ease-in bg-transparent border shadow-none border-green-bright text-green-bright hover:bg-green-bright hover:text-white">
+                            Resume
+                        </button>
+                    </a>
                     {/* Social Icons */}
                     <div className="flex items-center justify-center gap-5 text-green-bright">
-                        <div className="p-3 transition-all duration-100 cursor-pointer bg-green-bright/20 rounded-xl hover:bg-green-bright/25">
+                        <Link
+                            href={`https://www.linkedin.com/in/md-jafar-sadique/`}
+                            target="_blank"
+                            className="p-3 transition-all duration-100 cursor-pointer bg-green-bright/20 rounded-xl hover:bg-green-bright/25"
+                        >
                             <FaLinkedinIn />
-                        </div>
-                        <div className="p-3 transition-all duration-100 cursor-pointer bg-green-bright/20 rounded-xl hover:bg-green-bright/25">
+                        </Link>
+                        <Link
+                            href={`https://github.com/10Sadique`}
+                            target="_blank"
+                            className="p-3 transition-all duration-100 cursor-pointer bg-green-bright/20 rounded-xl hover:bg-green-bright/25"
+                        >
                             <FaGithub />
-                        </div>
-                        <div className="p-3 transition-all duration-100 cursor-pointer bg-green-bright/20 rounded-xl hover:bg-green-bright/25">
+                        </Link>
+                        <Link
+                            href={`mailto:jafarsjahan@gmail.com`}
+                            className="p-3 transition-all duration-100 cursor-pointer bg-green-bright/20 rounded-xl hover:bg-green-bright/25"
+                        >
                             <AiOutlineMail />
-                        </div>
-                        <div className="p-3 transition-all duration-100 cursor-pointer bg-green-bright/20 rounded-xl hover:bg-green-bright/25">
+                        </Link>
+                        {/* <div className="p-3 transition-all duration-100 cursor-pointer bg-green-bright/20 rounded-xl hover:bg-green-bright/25">
                             <BsFillPersonLinesFill />
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </div>
