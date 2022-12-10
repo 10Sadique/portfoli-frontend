@@ -5,8 +5,40 @@ import { BsFillPersonLinesFill } from 'react-icons/bs';
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 import { HiOutlineChevronDoubleUp } from 'react-icons/hi';
 import Link from 'next/link';
+import { useRef } from 'react';
+import emailjs from '@emailjs/browser';
+import { toast, Toaster } from 'react-hot-toast';
 
 const Contact = () => {
+    const form = useRef();
+
+    const sendEmail = (e) => {
+        e.preventDefault();
+        emailjs
+            .sendForm(
+                'service_cv7r6x1',
+                'template_3e7hlik',
+                form.current,
+                'oZhPBj0etJO7B_ag-'
+            )
+            .then(
+                (result) => {
+                    console.log(result.text);
+                    toast('Email Sent...✅', {
+                        style: {
+                            borderRadius: '0px',
+                            background: '#15d155',
+                            color: '#fff',
+                        },
+                    });
+                    e.target.reset();
+                },
+                (error) => {
+                    console.log(error.text);
+                }
+            );
+    };
+
     return (
         <div id="contact" className="w-full px-5 py-16 lg:h-auto">
             <div className="max-w-[1240px] mx-auto">
@@ -68,7 +100,7 @@ const Contact = () => {
                     {/* Right side */}
                     <div className="w-full h-full col-span-3 p-5 rounded-xl bg-green-bright/20">
                         <div className="h-full lg:p-2">
-                            <form>
+                            <form ref={form} onSubmit={sendEmail}>
                                 <div className="grid w-full gap-4 py-2 md:grid-cols-2">
                                     {/* name */}
                                     <div className="flex flex-col">
@@ -78,6 +110,7 @@ const Contact = () => {
                                         <input
                                             className="flex p-3 bg-black border-2 rounded-lg border-green-bright focus:outline-green-bright"
                                             type="text"
+                                            name="name"
                                         />
                                     </div>
                                     {/* phone */}
@@ -88,6 +121,7 @@ const Contact = () => {
                                         <input
                                             className="flex p-3 bg-black border-2 rounded-lg border-green-bright focus:outline-green-bright"
                                             type="text"
+                                            name="phone"
                                         />
                                     </div>
                                 </div>
@@ -99,6 +133,7 @@ const Contact = () => {
                                     <input
                                         className="flex p-3 bg-black border-2 rounded-lg border-green-bright focus:outline-green-bright"
                                         type="email"
+                                        name="email"
                                     />
                                 </div>
                                 {/* subject */}
@@ -109,6 +144,7 @@ const Contact = () => {
                                     <input
                                         className="flex p-3 bg-black border-2 rounded-lg border-green-bright focus:outline-green-bright"
                                         type="text"
+                                        name="subject"
                                     />
                                 </div>
                                 {/* message */}
@@ -118,6 +154,7 @@ const Contact = () => {
                                     </label>
                                     <textarea
                                         rows={5}
+                                        name="message"
                                         className="flex p-3 bg-black border-2 rounded-lg border-green-bright focus:outline-green-bright"
                                     ></textarea>
                                 </div>
@@ -137,6 +174,7 @@ const Contact = () => {
                     </Link>
                 </div>
             </div>
+            <Toaster position="top-center" reverseOrder={false} />
         </div>
     );
 };
